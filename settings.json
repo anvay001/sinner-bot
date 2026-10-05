@@ -1,0 +1,86 @@
+{
+  "name": "Sinner",
+  "bot-account": {
+    "username": "SINNER",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "advancedland.aternos.me",
+    "port":  16140,
+    "version": "",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 351,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "chalol78"
+    },
+    "anti-afk": {
+      "enabled": false,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true
+      ,
+      "repeat": true,
+      "repeat-delay": 7200,
+      "messages": [
+        "RUN"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": false,
+    "circle-walk": {
+      "enabled": false,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
+    "chat": false,
+    "console-commands": false
+  },
+  "combat": {
+    "attack-mobs": false,
+    "auto-eat": false
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": false
+  }
+}

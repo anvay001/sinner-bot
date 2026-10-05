@@ -1,0 +1,23 @@
+"scripts": {
+  "start": "node --max-old-space-size=80 index.js"
+}
+
+{
+  "name": "minecraft-afk-bot",
+  "version": "2.2",
+  "description": "Robust AFK bot for Minecraft servers with infinite uptime.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js"
+  },
+  "author": "Lamgerr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3",
+    "minecraft-data": "^3.117.0",
+    "minecraft-protocol": "^1.68.0",
+    "mineflayer": "^4.39.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
